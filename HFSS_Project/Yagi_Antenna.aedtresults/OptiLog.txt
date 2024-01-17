@@ -1,0 +1,84 @@
+
+=== constructing optimizer ===
+
+--- Begin Model Info ---
+# inp variables = 1
+# out variables = 1
+Lower Bounds(inp) follow
+DoubleArr: dim = 1
+array[0] = 0.324
+Upper Bounds(inp) follow
+DoubleArr: dim = 1
+array[0] = 0.334
+--- Begin ConstraintArr Info ---
+Array dim = 2
+Begin Linear Constraint
+RHS = -0.324
+Coef vector follows: DoubleArr: dim = 1
+array[0] = -1
+End Linear Constraint
+Begin Linear Constraint
+RHS = 0.334
+Coef vector follows: DoubleArr: dim = 1
+array[0] = 1
+End Linear Constraint
+--- End ConstraintArr Info ---
+Min steps follow
+DoubleArr: dim = 1
+array[0] = 0.00329
+Max steps follow
+DoubleArr: dim = 1
+array[0] = 0.01
+X-scales follow
+DoubleArr: dim = 1
+array[0] = 2e-33
+Max scaled bondary violations follow
+DoubleArr: dim = 2
+array[0] = 0
+array[1] = 0
+--- End Model Info ---
+
+--- Begin Generic Optimizer Info ---
+Cost limit = 0
+Iter limit = 100
+Act iter # = 0
+InitInstance InstanceListIterator is invalid
+
+BestInstance InstanceListIterator is invalid
+
+--- End Generic Optimizer Info ---
+
+--- Begin OptiMd Info ---
+Noise = 0.0001
+maxStepCountLimit =5
+noSuccessCountLimit =3
+threePointMode = OFF
+variableErrorMode = ON
+--- End OptiMd Info ---
+
+UseBestinList	Init:Feasible&Solved	input	0.329	output	79.13797708872947
+UseInitInst	initUpdate	input	0.329	output	79.13797708872947
+logH	rescale	input	0	0	output	6331038.167098347
+Initial Gradient Approximation:
+calcGrd	0->1	input	0.3291676856050321	output	77.5776677183279
+logNoise	center	input	0.329	output	0.1780190569767381
+logGrad	grad	input	0.329	output	-9304.96908248505
+logGrad	error	input	0.329	output	2654.059913828656
+grdPnts	center	input	0.329	output	79.13797708872947
+grdPnts	1:aux1	input	0.3291676856050321	output	77.5776677183279
+Initial Rescaling the Hessian:
+logH	rescale	input	0	0	output	6331038.167098347
+Initialization done, Try to do the First Step!
+Entry point in main iteration loop.
+The Actual Positin Is		input	0.329	output	79.13797708872947
+constrainedQuadOptimum returned:
+Solved
+Proposed step for Line Search		input	0.001469738269916254	output	0
+lineSearch	init	input	0.3304697382699163	output	61.70692306542736
+extra		input	0.3319394765398325	output	45.23966745763024
+lineSearch returned:
+Valid but not solved. For internal use only
+The New Positin Is		input	0.3319394765398325	output	45.23966745763024
+Successful step.
+The step was		input	0.002939476539832508	output	0
+Successful step is too small, will return!

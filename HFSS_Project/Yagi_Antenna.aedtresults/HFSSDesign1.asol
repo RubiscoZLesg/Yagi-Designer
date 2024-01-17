@@ -1,0 +1,157 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002024, month=000000000001, day=000000000017, hour=000000000023, min=000000000042, sec=000000000053)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000005090, lin=000000000133, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock26'
+	SolutionName='AdaptivePass'
+	SolutionID=88
+	V=560
+	$begin 'States'
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(435000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=-1
+	KeepAllFastSweepFields=false
+$end 'SolutionBlock26'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=87, Instance=\'SetupDefinition\', Solution=-1, VersionID=434)'='SolutionBlock22'
+	'SolutionKey(SimSetup=87, Instance=\'SolutionDefinition\', Solution=88, VersionID=560)'='SolutionBlock26'
+	'SolutionKey(SimSetup=87, Instance=\'SolutionDefinition\', Solution=89, VersionID=628)'='SolutionBlock30'
+	'SolutionKey(SimSetup=87, Instance=\'SolutionDefinition\', Solution=94, VersionID=631)'='SolutionBlock31'
+$end 'BlockMapName'
+$begin 'SolutionBlock30'
+	SolutionName='LastAdaptive'
+	SolutionID=89
+	V=628
+	$begin 'States'
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(435000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=-1
+	KeepAllFastSweepFields=false
+$end 'SolutionBlock30'
+$begin 'SolutionBlock31'
+	SolutionName='Sweep'
+	SolutionID=94
+	V=631
+	$begin 'States'
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(430000000, 430526315.7894737, 431052631.5789474, 431578947.3684211, 432105263.1578947, 432631578.9473684, 433157894.7368421, 433684210.5263158, 434210526.3157895, 434736842.1052632, 435263157.8947368, 435789473.6842105, 436315789.4736842, 436842105.2631579, 437368421.0526316, 437894736.8421053, 438421052.6315789, 438947368.4210526, 439473684.2105263, 440000000)
+		SolutionType=4
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=0
+	KeepAllFastSweepFields=false
+$end 'SolutionBlock31'
+$begin 'SolutionBlock22'
+	SimSetupID=87
+	SimSetupName='Setup1'
+	VersionID=434
+	IsImported=false
+	IsTable=false
+	SolveSetupID=0
+	MeshAssemVersionID=11
+	$begin 'NextAssemVersionID'
+		NextUniqueID=12
+		MoveBackwards=false
+	$end 'NextAssemVersionID'
+	$begin 'ADP'
+	$end 'ADP'
+	$begin 'SU'
+	$end 'SU'
+	$begin 'MI'
+	$end 'MI'
+$end 'SolutionBlock22'
+$begin 'SolutionBlock1'
+	ProductName=''
+	CircuitName='HFSSDesign1'
+	VersionID=434
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=850
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='dip_gap=\'8mm\' dip_len=\'329mm\' dip_span=\'138mm\' dir1_len=\'313mm\' dir1_span=\'52mm\' dir2_len=\'311mm\' dir2_span=\'124mm\' dir3_len=\'308mm\' dir3_span=\'148mm\' elm_diam=\'1mm\' ref_len=\'338mm\'', ID=607)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+	MeshAssemVersionID=84
+	$begin 'NextAssemVersionID'
+		NextUniqueID=85
+		MoveBackwards=false
+	$end 'NextAssemVersionID'
+	$begin 'MI'
+	$end 'MI'
+$end 'SolutionBlock1'
+$begin 'ResponseSurfaceCache'
+	ResponseSurfaceCache()
+$end 'ResponseSurfaceCache'
+$begin 'OptimetricsResult1'
+	V=2
+	svi('dip_gap', '6mm')
+	vi('dip_len', '329mm', '324mm', '334mm')
+	svi('dip_span', '138mm')
+	svi('dir1_len', '313mm')
+	svi('dir1_span', '52mm')
+	svi('dir2_len', '311mm')
+	svi('dir2_span', '124mm')
+	svi('dir3_len', '308mm')
+	svi('dir3_span', '148mm')
+	svi('elm_diam', '1mm')
+	svi('ref_len', '338mm')
+	gver(0)
+	gi('Cost', 0, 0, '')
+	gi('dB(S(1,1)): Freq()', 94, 631, '')
+	var(6.000000000000000e-03, 3.290000000000000e-01, 1.380000000000000e-01, 3.130000000000000e-01, 5.200000000000000e-02, 3.110000000000000e-01, 1.240000000000000e-01, 3.080000000000000e-01, 1.480000000000000e-01, 1.000000000000000e-03, 3.380000000000000e-01)
+	gvs(3.290000000000000e-01, 7.913797708872947e+01)
+	var(6.000000000000000e-03, 3.291676856050320e-01, 1.380000000000000e-01, 3.130000000000000e-01, 5.200000000000000e-02, 3.110000000000000e-01, 1.240000000000000e-01, 3.080000000000000e-01, 1.480000000000000e-01, 1.000000000000000e-03, 3.380000000000000e-01)
+	gvs(3.291676856050320e-01, 7.757766771832790e+01)
+	var(6.000000000000000e-03, 3.304697382699160e-01, 1.380000000000000e-01, 3.130000000000000e-01, 5.200000000000000e-02, 3.110000000000000e-01, 1.240000000000000e-01, 3.080000000000000e-01, 1.480000000000000e-01, 1.000000000000000e-03, 3.380000000000000e-01)
+	gvs(3.304697382699160e-01, 6.170692306542736e+01)
+	var(6.000000000000000e-03, 3.319394765398330e-01, 1.380000000000000e-01, 3.130000000000000e-01, 5.200000000000000e-02, 3.110000000000000e-01, 1.240000000000000e-01, 3.080000000000000e-01, 1.480000000000000e-01, 1.000000000000000e-03, 3.380000000000000e-01)
+	gvs(3.319394765398330e-01, 4.523966745763024e+01)
+$end 'OptimetricsResult1'
+$begin 'OptimetricsResults'
+	'2:0'='OptimetricsResult1'
+$end 'OptimetricsResults'
+$begin '$index$'
+	$begin '$index$'
+		OptimetricsResults(pos=5008, lin=130, lvl=0)
+		SolutionBlock26(pos=370, lin=1, lvl=0)
+		BlockMapName(pos=728, lin=19, lvl=0)
+		SolutionBlock30(pos=1224, lin=26, lvl=0)
+		SolutionBlock31(pos=1582, lin=44, lvl=0)
+		SolutionBlock22(pos=2285, lin=62, lvl=0)
+		SolutionBlock1(pos=2628, lin=81, lvl=0)
+		ResponseSurfaceCache(pos=3263, lin=102, lvl=0)
+		OptimetricsResult1(pos=3345, lin=105, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=5090, lin=133, lvl=0)
+	$end '$index$'
+$end '$index$'
